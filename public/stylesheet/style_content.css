@@ -1,0 +1,18 @@
+.content {
+    background-color: #ffffff;
+    color: black;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .content_box {
+    width: 60%;
+    color: 0;
+}
+
+.content p {
+    margin: 2cm;
+    line-height: 50px;
+}
