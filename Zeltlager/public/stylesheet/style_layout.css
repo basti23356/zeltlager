@@ -39,7 +39,7 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url("../data/images/lukas91.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .3)), url("../data/images/lukas91.jpg");
 
     color: rgb(247, 247, 247);
 
