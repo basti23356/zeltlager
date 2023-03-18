@@ -1,0 +1,114 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #ffc76c;
+    /*background-color: #1c3825;*/
+    color: #222;
+}
+nav a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+
+/**++++++++++++++++++++++++++++++++++++++++++++++ header +++++++++++++++++++++++++++++++++++++++*/
+
+header {
+    margin: 0;
+
+    background-color: #ffb947;
+    /*background-color: #427850;*/
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.header_box{
+    margin:  25px auto 0;
+}
+.header_img img{
+    height: 100%;
+}
+.header_img {
+    height: 10em;
+    width: 10em;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: lighter;
+    font-size: xxx-large;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav li {
+    margin-right: 1em;
+}
+
+header nav a {
+    display: block;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+
+/**++++++++++++++++++++++++++++++++++++++++++++++ main +++++++++++++++++++++++++++++++++++++++*/
+main  {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    /*background-color: #1c3825;*/
+
+    /*background-size: 70%;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 0)), url("../img/logo2023.jpg");
+    opacity: 0.2;*/
+    }
+
+main img {
+    margin: 50px auto 60px;
+    height: 511px;
+    width: 768px;
+}
+
+main ul {
+    margin: 0 20%;
+    font-size: large;
+}
+
+
+/**++++++++++++++++++++++++++++++++++++++++++++++ footer +++++++++++++++++++++++++++++++++++++++*/
+
+footer  {
+    text-transform: uppercase;
+    background-color: #ffb947;
+    /*background-color: #427850;*/
+    padding: 0.7em 0;
+    position: relative;
+    width: 100%;
+}
+
+footer nav a{
+    display: block;
+    padding-right: 3em;
+    font-size: 1em;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0 5px 5px;
+}
