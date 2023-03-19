@@ -1,12 +1,15 @@
+
 body {
     font-family: 'Inconsolata', monospace;
     /*margin: 0;
     padding: 0;
     width: 100%;*/
-    background-color: #ffc76c;
+    /*background-color: #ffc76c; wird durch bootstrap überschrieben schon abgeändert.*/
     /*background-color: #1c3825;*/
     color: #222;
 }
+
+
 nav a {
     color: inherit;
     text-decoration: none;
@@ -92,12 +95,11 @@ main ul {
 
 
 /**++++++++++++++++++++++++++++++++++++++++++++++ footer +++++++++++++++++++++++++++++++++++++++*/
-
-/*footer  {
+footer  {
     text-transform: uppercase;
     background-color: #ffb947;
     /*background-color: #427850;*/
-/*    padding: 0.7em 0;
+    padding: 0.7em 0;
     position: relative;
     width: 100%;
 }
@@ -113,3 +115,16 @@ footer nav ul{
     justify-content: flex-end;
     margin: 5px 0 5px 5px;
 }*/
+
+.body-bg-img{
+	background-image:url("../img/MainBackground.jpg");
+}
+
+.body-txt-bg{
+	background-color:#ffc76c;
+	opacity: 0.5;
+}
+
+.body-txt{
+	opacity: 1;
+}
