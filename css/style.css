@@ -1,8 +1,8 @@
 body {
     font-family: 'Inconsolata', monospace;
-    margin: 0;
+    /*margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100%;*/
     background-color: #ffc76c;
     /*background-color: #1c3825;*/
     color: #222;
@@ -16,12 +16,13 @@ ul{
     list-style: none;
 }
 
+
+
 /**++++++++++++++++++++++++++++++++++++++++++++++ header +++++++++++++++++++++++++++++++++++++++*/
 
 header {
     margin: 0;
-
-    background-color: #ffb947;
+	background-color: #ffb947;
     /*background-color: #427850;*/
     display: flex;
     justify-content: space-between;
@@ -61,7 +62,7 @@ header nav a {
 }
 
 /**++++++++++++++++++++++++++++++++++++++++++++++ main +++++++++++++++++++++++++++++++++++++++*/
-main  {
+/*main  {
     margin: 0;
     height: 100%;
     width: 100%;
@@ -76,13 +77,13 @@ main  {
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, 0)), url("../img/logo2023.jpg");
     opacity: 0.2;*/
-    }
+/*    }
 
 main img {
     margin: 50px auto 60px;
     height: 511px;
     width: 768px;
-}
+} 
 
 main ul {
     margin: 0 20%;
@@ -92,11 +93,11 @@ main ul {
 
 /**++++++++++++++++++++++++++++++++++++++++++++++ footer +++++++++++++++++++++++++++++++++++++++*/
 
-footer  {
+/*footer  {
     text-transform: uppercase;
     background-color: #ffb947;
     /*background-color: #427850;*/
-    padding: 0.7em 0;
+/*    padding: 0.7em 0;
     position: relative;
     width: 100%;
 }
@@ -111,4 +112,4 @@ footer nav ul{
     display: flex;
     justify-content: flex-end;
     margin: 5px 0 5px 5px;
-}
+}*/
